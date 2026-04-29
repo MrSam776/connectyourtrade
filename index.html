@@ -548,11 +548,15 @@
       border-radius: var(--radius);
       overflow: hidden;
       transition: all var(--transition);
+      text-decoration: none;
+      display: block;
+      cursor: pointer;
     }
 
     .portfolio-card:hover {
       transform: translateY(-3px);
-      box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+      border-color: var(--blue);
     }
 
     .portfolio-thumb {
@@ -1066,36 +1070,36 @@
       <h2 class="section-title">Sites we've <span class="blue">built.</span></h2>
       <p class="portfolio-intro">Every site is built from scratch for the individual — their trade, their area, their personality.</p>
       <div class="portfolio-grid">
-        <div class="portfolio-card">
+        <a href="https://mrsam776.github.io/demo-gardener/" target="_blank" class="portfolio-card">
           <div class="portfolio-thumb portfolio-thumb-1">
-            <div class="portfolio-placeholder-text">Demo site<br>coming soon</div>
+            <div class="portfolio-placeholder-text">JD Garden<br>Services →</div>
           </div>
           <div class="portfolio-info">
             <div class="portfolio-trade">Gardening</div>
-            <div class="portfolio-name">Example Gardens Co.</div>
-            <span class="portfolio-badge">London</span>
+            <div class="portfolio-name">JD Garden Services</div>
+            <span class="portfolio-badge">Cambridgeshire</span>
           </div>
-        </div>
-        <div class="portfolio-card">
+        </a>
+        <a href="https://mrsam776.github.io/demo-decorator/" target="_blank" class="portfolio-card">
           <div class="portfolio-thumb portfolio-thumb-2">
-            <div class="portfolio-placeholder-text">Demo site<br>coming soon</div>
+            <div class="portfolio-placeholder-text">MP<br>Decorating →</div>
           </div>
           <div class="portfolio-info">
-            <div class="portfolio-trade">Painting & Decorating</div>
-            <div class="portfolio-name">Example Decorators Ltd.</div>
+            <div class="portfolio-trade">Painting &amp; Decorating</div>
+            <div class="portfolio-name">MP Decorating</div>
             <span class="portfolio-badge">London</span>
           </div>
-        </div>
-        <div class="portfolio-card">
+        </a>
+        <a href="https://mrsam776.github.io/demo-golf/" target="_blank" class="portfolio-card">
           <div class="portfolio-thumb portfolio-thumb-3">
-            <div class="portfolio-placeholder-text">Demo site<br>coming soon</div>
+            <div class="portfolio-placeholder-text">Tom Reid<br>Golf →</div>
           </div>
           <div class="portfolio-info">
-            <div class="portfolio-trade">Plumbing</div>
-            <div class="portfolio-name">Example Plumbing Co.</div>
-            <span class="portfolio-badge">London</span>
+            <div class="portfolio-trade">Golf Coaching</div>
+            <div class="portfolio-name">Tom Reid Golf</div>
+            <span class="portfolio-badge">Cambridgeshire</span>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -1164,11 +1168,11 @@
           <h3>Contact details</h3>
           <div class="contact-item">
             <div class="contact-icon">✉</div>
-            <a href="mailto:your@email.com">your@email.com</a>
+            <a href="mailto:info@connectyourtrade.co.uk">info@connectyourtrade.co.uk</a>
           </div>
           <div class="contact-item">
             <div class="contact-icon">📞</div>
-            <a href="tel:+447000000000">+44 7000 000000</a>
+            <a href="tel:07803569324">07803 569 324</a>
           </div>
           <div class="contact-item">
             <div class="contact-icon">📍</div>
@@ -1194,7 +1198,7 @@
             <div class="form-row">
               <div class="form-group">
                 <label for="phone">Phone number</label>
-                <input type="tel" id="phone" name="phone" placeholder="+44 7000 000000" />
+                <input type="tel" id="phone" name="phone" placeholder="07803 569 324" />
               </div>
               <div class="form-group">
                 <label for="trade">Your trade</label>
